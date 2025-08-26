@@ -17,7 +17,24 @@ export default function About() {
         experience, Logic Solutions delivers resources that help our clients
         operate with confidence.
       </p>
+import AdminAccess from "@/components/AdminAccess";
+import PortalDebug from "@/components/PortalDebug";
 
+export default function AboutPage() {
+  return (
+    <main className="max-w-3xl mx-auto p-6 space-y-6">
+      <h1 className="text-3xl font-semibold">About</h1>
+      <p className="text-sm opacity-80">
+        Educational resources. Not legal advice.
+      </p>
+
+      <AdminAccess />
+
+      {/* Debug widget – remove when you’re done testing */}
+      <PortalDebug />
+    </main>
+  );
+}
       <p className="mb-6">
         Our network includes{" "}
         <a href="https://legaltools.com" className="text-blue-600 hover:underline">
@@ -41,6 +58,8 @@ export default function About() {
           >
             support@quicklegalbiz.com
           </a>
+          NEXT_PUBLIC_PORTAL_PASS=truepath   # or whatever you want
+
         </li>
 
         <li>
