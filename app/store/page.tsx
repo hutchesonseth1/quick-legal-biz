@@ -16,30 +16,30 @@ const PRIMARY: Item = {
     "Complaint, summons, service checklist, and filing instructions. Educational only — not legal advice.",
   price: 19,
   priceId: "price_SMALL_CLAIMS", // TODO: replace with your real Stripe Price ID
-  image: "/branding/small-claims.png", // put a PNG in /public/branding
+  image: "/", // put a PNG in /public/branding
 };
 
-RELATED: Item[] = [
+RELATED: Item=[
   {
     name: "Mechanic’s Lien Packet",
     blurb: "State form + filing guide and mailing steps.",
     price: 29,
     priceId: "price_MECH_LIEN",
-    image: "/branding/lien.png",
+    image: "/",
   },
   {
     name: "Notice of Appearance",
     blurb: "Enter your appearance as pro se with service sheet.",
     price: 9,
     priceId: "price_NOTICE_APPEAR",
-    image: "/branding/appearance.png",
+    image: "",
   },
   {
     name: "Motion to Dismiss (Template)",
     blurb: "Structured template with placeholders and citations slots.",
     price: 15,
     priceId: "price_MTD",
-    image: "/branding/motion.png",
+    image: "/",
   },
 ];
 
