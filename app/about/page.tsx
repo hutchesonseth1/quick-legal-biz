@@ -1,4 +1,3 @@
-// app/about/page.tsx
 import AdminAccess from "@/components/AdminAccess";
 
 export default function AboutPage() {
@@ -8,8 +7,6 @@ export default function AboutPage() {
       <p className="text-sm opacity-80">
         Educational resources to help you self-serve paperwork. Not legal advice.
       </p>
-
-      {/* Visible Admin button for portal access */}
       <AdminAccess />
     </main>
   );
