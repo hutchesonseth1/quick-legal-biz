@@ -19,7 +19,7 @@ const PRIMARY: Item = {
   image: "/branding/small-claims.png", // put a PNG in /public/branding
 };
 
-RELATED: Item[] = [
+const RELATED: Item[] = [
   {
     name: "Mechanic’s Lien Packet",
     blurb: "State form + filing guide and mailing steps.",
